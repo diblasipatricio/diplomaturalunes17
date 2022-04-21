@@ -1,0 +1,111 @@
+/*font-family: 'Anek Tamil', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;*/
+
+h2 {
+    color: rgba(0, 0, 0, 0.62);
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 44px;
+    margin: 33px;
+    /* margen */
+    text-shadow: 25px 13px 15px rgba(0, 0, 0, 0.6);
+
+}
+
+img {
+    height: auto;
+    width: 1000px;
+}
+
+.caja {
+    width: 1000px;
+    height: 200px;
+    background: rgba(4, 25, 20, 0.62);
+    background: linear-gradient(299deg, rgba(4, 25, 20, 0.62) 0%, #3fb35b 80%);
+    background: -webkit-linear-gradient(299deg, rgba(4, 25, 20, 0.62) 0%, #3fb35b 80%);
+    background: -moz-linear-gradient(299deg, rgba(4, 25, 20, 0.62) 0%, #3fb35b 80%);
+    margin: 0px;
+    margin-top: 33px;
+
+    /*color de tipo*/
+    color: white;
+    padding: 20px;
+
+    /*para que no se deforme la caja*/
+    box-sizing: border-box;
+
+    /* border-radius: 20px 0 20px 50px; */
+    /* bordes manual */
+
+    /* usar esto en mi composicion */
+
+    border-radius: 60px 4px 72px 19px;
+    -webkit-border-radius: 60px 4px 72px 19px;
+    -moz-border-radius: 60px 4px 72px 19px;
+
+    box-shadow: 10px 10px 33px black;
+
+    /* eje x - eje y- desenfoque - color  positivo negativo tener en cuenta + -*/
+    /* puedo usar box shadow en la página */
+
+    /* border: 1px solid white; */
+    /* sirve para poner borde */
+
+    /* thext shadow usar en la pagina */
+
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid white;
+
+    /* hay diferentes tipos de lines solid, dashed etc  busco border + css en google */
+}
+
+/* parrafo que esta dentro de la caja acomodo margen */
+
+.caja p {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* https://cdnjs.com/libraries/font-awesome  link enlace */
+/* https://fontawesome.com/icons enlace 2 iconos */
+
+/* .iconoflirk{
+    width: 70px;
+    height: 70px;
+}  */
+
+.exposiciones {
+    color: white;
+    width: 1000px;
+    height: auto;
+    
+    background: rgba(4, 25, 20, 0.62);
+    background: linear-gradient(299deg, rgba(4, 25, 20, 0.62) 0%, #3fb35b 80%);
+    background: -webkit-linear-gradient(299deg, rgba(4, 25, 20, 0.62) 0%, #3fb35b 80%);
+    background: -moz-linear-gradient(299deg, rgba(4, 25, 20, 0.62) 0%, #3fb35b 80%);
+    margin: 0px;
+    
+    margin-top: 33px;
+    padding-bottom: 11px;
+    border-radius: 16px 10px 41px 0px;
+    -webkit-border-radius: 16px 10px 41px 0px;
+    
+    -moz-border-radius: 16px 10px 41px 0px;
+    box-shadow: 10px 25px 19px 14px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 10px 25px 19px 14px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 10px 25px 19px 14px rgba(0, 0, 0, 0.16);
+}
+
+.behance {
+    color: aquamarine;
+    font-size: 66px;
+    margin-top: 40px;
+    text-shadow: 25px 37px 27px rgba(0, 0, 0, 0.66);
+}
+
+.flickr {
+    color: aquamarine;
+    font-size: 66px;
+    margin-top: 10px;
+    text-shadow: 25px 37px 27px rgba(0, 0, 0, 0.66);
+}
