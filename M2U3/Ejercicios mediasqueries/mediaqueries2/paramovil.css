@@ -1,0 +1,39 @@
+body {
+    color: #fff7f7;
+    background: #75716b;
+    font-size:100%;
+
+}
+#contenedor {
+    background: #8FA68E;
+    width: 100%;
+    
+}
+nav {
+    color:#fff7f7;
+    background: #d19476;
+    float: left;
+    width: 100%;
+}
+ul {
+    list-style-type: circle;
+}
+
+a {
+    color:#fff7f7;
+    text-decoration:none;
+}
+
+section {
+    background: #be75bd;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+aside {
+    color: #fff7f7;
+    background: #81a8e1;
+    float: left;
+    width: 100%;
+    margin: 0;
+}

@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+/* q es esa opcion? */
+a {
+	color:#F1F2C0;
+	text-decoration:none;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+/* averiguar float, overflow, averiguar q es dijo q se puede usar caja flex */
+
+@media screen and (min-width: 230px) and (max-width: 800px){
+
+	body {
+		color: #fff7f7;
+		background: #332F29;
+		font-size:100%;
+	
+	}
+	#contenedor {
+		background: #8FA68E;
+		width: 100%;
+		
+	}
+	nav {
+		color:#fff7f7;
+		background: #79d176;
+		float: left;
+		width: 100%;
+	}
+	ul {
+		list-style-type: circle;
+	}
+	
+	a {
+		color:#fff7f7;
+		text-decoration:none;
+	}
+
+	section {
+		background: #be75bd;
+		float: left;
+		margin: 0;
+		width: 100%;
+	}
+	aside {
+		color: #fff7f7;
+		background: #81a8e1;
+		float: left;
+		width: 100%;
+		margin: 0;
+	}
+}
