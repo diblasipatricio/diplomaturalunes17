@@ -1,0 +1,31 @@
+.container{
+    background-color: rgba(2, 2, 10, 0.878);
+}
+
+.container-fluid{
+background-color: rgb(48, 12, 82);
+}
+
+h2{ 
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table{
+    color: aliceblue;
+}
+
+/* .col{
+    background-color: black;
+    color: aliceblue;
+}
+.col{
+    background-color: rgb(86, 123, 123);
+}
+.col{
+    background-color: bisque;
+} */

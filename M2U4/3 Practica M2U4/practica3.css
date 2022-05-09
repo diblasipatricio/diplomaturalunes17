@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(178, 0, 119);
+}
+header{
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.row{
+    padding: 10px;
+}
+h2{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card-text{
+     color: black;
+}
+
+/* .col{
+    color: aliceblue;
+} */
