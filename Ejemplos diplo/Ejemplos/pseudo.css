@@ -1,0 +1,43 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  cursor: pointer;
+  /* para que aparezca la mano del mouse agregar en los iconos*/
+}
+
+/* atajo cmd + k = c */
+
+
+/* Pseudo clase :hover plicará un estilo cuando el usuario haga hover (flotar?) sobre el elemento especificado por el selector
+
+ */
+div:hover {
+  background-color: #F89B4D;
+}
+
+/* :first-child y :last-child */
+/* :nth-child()  */
+
+span {
+  background-color: yellow;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* sepuede agregar un atributo "conten" que es un marco negro al boton */
+
+
+/* span lapso */
+
+span::after {
+  /* marco negro agrego */
+  content: 'despues';
+  background-color: red;
+}
+
+span::before {
+  content: 'antes';
+  background-color: rgb(0, 255, 187);
+  color: aliceblue;
+}

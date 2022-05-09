@@ -1,0 +1,18 @@
+.contenedor{
+	background-color: blue;
+	display:inline-flex;
+	flex-direction: row;
+	flex-direction: row-reverse;
+	flex-direction: column;
+	flex-direction: column-reverse;
+}
+/* 1 el elemnt contenedor esta en un div contiene al resto tiene un color*/
+.item{
+	background-color: #ccc;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+	}
+
+		/* aca trabajamos direccion */

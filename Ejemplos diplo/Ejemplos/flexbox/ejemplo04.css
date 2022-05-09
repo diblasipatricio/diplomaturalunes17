@@ -1,0 +1,25 @@
+.contenedor{
+	background-color: blue;
+	display: flex;
+	justify-content: flex-start;
+	justify-content: flex-end;
+	justify-content: center;
+	justify-content: space-between;
+	justify-content: space-around;
+	justify-content: space-evenly;
+}
+
+/* 1 Este esta por defecto */
+/* 3 esta bueno center deja margenes */
+
+.item{
+	background-color: #ccc;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+    margin:10px;
+}
+
+/* justificacion del contenido */
+/* siempre trabajamos en el eje de las X */
