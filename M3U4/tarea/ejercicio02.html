@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <textarea name="" id="texto" cols="30" rows="10"></textarea>
+    <div> caracteres: <span id="contar"></span></div> 
+
+    <script>
+        var texto = document.getElementById("texto"); //creo una variable que tome "id texto"
+        var contar = document.getElementById("contar"); //"toma id et span"
+
+        texto.addEventListener('keyup', function(){
+            contar.innerText = texto.value.length; 
+        }) 
+        //cant de caracteres
+        //"keyup es apretar y levantar la tecla"
+        //ubica en el span cual es la cantidad de caracteres ingresados en el text area
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+.contenedor {
+display: flex;
+}
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.rojo {
+
+    background: red;
+}
+
+.negro {
+    background-color: black;
+}

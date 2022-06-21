@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilom3u4.css">
+</head>
+
+<!-- Ejercicio 1:
+
+Crear un documento html con 3 cuadrados que, al ser clickeados, cambien el color de fondo del documento. Cada cuadrado debera tener un color distinto.
+
+ -->
+
+<body>
+
+    <h1>M3U4</h1>
+
+    <div class="contenedor">
+
+        <div class="cuadrado aqua" onclick="cambiarfondo('aqua')"></div>
+        <div class="cuadrado rojo" onclick="cambiarfondo('red')"></div>
+        <div class="cuadrado negro" onclick="cambiarfondo('black')"></div>
+
+    </div>
+    <!-- el elemento onclick va a llamar a la funcion cambiar color -->
+    <script>
+        function cambiarfondo(color) {
+            document.querySelector("body").style.background = color;
+
+            // del doc selecciona el body y aplica el style en base al color
+        }
+    </script>
+
+
+
+</body>
+
+</html>
